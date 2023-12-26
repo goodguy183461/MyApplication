@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textstyle1">
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+        <item name="android:textColor">@color/text08</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="textstyle2" parent="textstyle1">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text04</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textstyle3" parent="textstyle2">
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="textStyleBox" parent="textstyle3">
+        <item name="android:background">@drawable/rectangle_104</item>
+    </style>
+
+    <style name="inboxtextstyle">
+        <item name="android:fontFamily">@font/tajawal_medium</item>
+        <item name="android:textColor">@color/text03</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="tajawal_regular_20">
+        <item name="android:fontFamily">@font/tajawal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="tajawal_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+        <item name="android:textColor">@color/text03</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
